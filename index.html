@@ -9,21 +9,28 @@
   <body>
 
       <h1 id="title">Hello World, we are software developers!</h1>
-      <p id="description"> </p>
+      <p id="description"> Let us know how we can improve freeCodeCamp </p>
 
       <form  id="survey-form">
         <p>
-        <label id = "name-label">Enter your name</label>
-        <input id="name" required/>
+        <label id = "name-label">*Name</label>
+        <input id="name" placeholder="Enter your name" required/>
         </p>
         <p>
-        <label id="email-label">Enter your email</label>
-        <input type="email" id="email" required/>
+        <label id="email-label">*Email</label>
+        <input type="email" placeholder="Enter your email" id="email" required/>
         </p>
         <p>
-        <label id="number-label">Enter your number</label>
-        <input type="number" id="number" required min ='8' max='10'/> 
+        <label id="number-label">*Number</label>
+        <input type="number" placeholder="Enter your number" id="number" required min ='8' max='10'/> 
         </p>
+        <select id="dropdown">Select an option
+            <option>Option A</option>
+            <option>Option B</option>
+            <option>Option C</option>
+            <option>Option D</option>
+            <option>Option E</option>
+        </select>
 
 
       </form>
