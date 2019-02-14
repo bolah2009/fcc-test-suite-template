@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-      <h1 id="title">Hello World, we are software developers!</h1>
-      <p id="description"> Let us know how we can improve freeCodeCamp </p>
+<body>
+  <h1 id="title">Hello World, we are software developers!</h1>
+  <p id="description">Let us know how we can improve freeCodeCamp</p>
 
-      <form  id="survey-form">
-        <p>
-        <label id = "name-label">*Name</label>
-        <input id="name" placeholder="Enter your name" required/>
-        </p>
-        <p>
-        <label id="email-label">*Email</label>
-        <input type="email" placeholder="Enter your email" id="email" required/>
-        </p>
-        <p>
-        <label id="number-label">*Number</label>
-        <input type="number" placeholder="Enter your number" id="number" required min ='8' max='10'/> 
-        </p>
-        <select id="dropdown">Select an option
-            <option>Option A</option>
-            <option>Option B</option>
-            <option>Option C</option>
-            <option>Option D</option>
-            <option>Option E</option>
-        </select>
-        <div>
-          <input type="radio" id="huey" name="drone" value="huey"
-                 checked>
-          <label for="huey">YES</label>
-        </div>
-        
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey">
-          <label for="dewey">NO</label>
-        </div>
-        
-        <div>
-          <input type="radio" id="louie" name="" value="louie">
-          <label for="louie">MAYBE</label>
-        </div>
-        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
-        <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
-        <input type="checkbox" name="vehicle3" value="Boat" checked> I have a boat<br> 
-        <textarea type="text" name="comment" cols="30" rows="4">PLease write your comments</textarea>
-        </form>
-        
+  <form id="survey-form">
+    <p>
+      <label id="name-label">*Name</label>
+      <input id="name" placeholder="Enter your name" required />
+    </p>
+    <p>
+      <label id="email-label">*Email</label>
+      <input type="email" placeholder="Enter your email" id="email" required />
+    </p>
+    <p>
+      <label id="number-label">*Number</label>
+      <input type="number" placeholder="Enter your number" id="number" required min="8" max="10" />
+    </p>
+    <br />
 
+    <select id="dropdown">
+      <option>Select an option</option>
+      <option>Option A</option>
+      <option>Option B</option>
+      <option>Option C</option>
+      <option>Option D</option>
+      <option>Option E</option>
+    </select><br />
+    <p>Are you married?</p>
+    <div>
+      <input type="radio" id="huey" name="married" value="yes" checked />
+      <label for="yes">YES</label>
+    </div>
 
+    <div>
+      <input type="radio" id="dewey" name="married" value="no" />
+      <label for="no">NO</label>
+    </div>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-   
+    <div>
+      <input type="radio" id="louie" name="married" value="maybe" />
+      <label for="maybe">MAYBE</label>
+    </div>
+    <br /><br />
+    <p>Do you have a Vechicle?</p>
+    <input type="checkbox" name="vehicle1" value="Bike" /> I have a bike<br />
+    <input type="checkbox" name="vehicle2" value="Car" /> I have a car<br />
+    <input type="checkbox" name="vehicle3" value="Boat" checked /> I have a
+    boat<br />
+    <br />
+    <textarea type="text" name="comment" cols="30" rows="4">
+PLease write your comments</textarea><br />
+    <button id="submit">Submit</button>
+  </form>
 
-    <!--
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!--
 
     Hello Camper!
 
@@ -70,6 +75,7 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
-  </body>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
